@@ -22,6 +22,15 @@ footer {
     background-color: #ffffff;
 }
 
+input{
+    margin-top: 0 !important;
+    margin-bottom: 13px !important;
+    border-radius: 5px;
+}
+input::placeholder{
+color: rgba(0, 0, 0, 0.459);
+}
+
 .row {
     display: flex;
     justify-content: space-around;
@@ -61,7 +70,7 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 15px;
     max-width: 400px;
 }
 
